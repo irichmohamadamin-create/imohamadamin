@@ -1,0 +1,15 @@
+# robots.txt برای سایت محمدامین
+# این فایل به ربات‌های جستجو دسترسی‌ها را مشخص می‌کند
+
+User-agent: *
+Allow: /
+
+# جلوگیری از ایندکس شدن فایل‌ها و پوشه‌های غیرضروری
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+Disallow: /search?
+
+# نقشه سایت
+Sitemap: https://mohammadamin.example.com/sitemap.xml
